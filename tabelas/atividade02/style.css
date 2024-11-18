@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f9f9f9;
+    min-height: 100vh;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+}
+
+th, td {
+    border: 1px solid #DDDDDD;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #F7F7F7;
+    color: #666666;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+td {
+    font-size: 14px;
+    color: #000000;
+}
+
+.posicao {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    color: #cccccc;
+}
+
+.posicao.libertadores {
+    color: #003366;
+     
+}
+
+.posicao.pre-libertadores {
+    color: #1398BE;
+   
+}
+
+.posicao.sul-americana {
+    color: #DE9800;
+   
+}
+
+.posicao.rebaixados {
+    color: #C91804;
+    
+}
+
+.legendas {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.legenda {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.legenda.libertadores {
+    background-color: #003366;
+}
+
+.legenda.pre-libertadores {
+    background-color: #1398BE;
+}
+
+.legenda.sul-americana {
+    background-color: #DE9800;
+}
+
+.legenda.rebaixados {
+    background-color: #C91804;
+}
+
+p{
+    font-size: 10px;
+    color: #555555;
+}
